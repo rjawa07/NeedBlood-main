@@ -1,0 +1,43 @@
+database name is mydb
+collection name is donor_info
+fields are 
+{ name: "Donor_name", address: "Highway 37", phone_no: "6543219875", blood_type: "O+" }
+
+
+
+<!-- 
+<table class="purpleHorizon">
+    <thead>
+        <tr>
+            <th>city</th>
+            <th>name</th>
+            <th>phone_no</th>
+            <th>address</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="4">
+                <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+            </td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <% for(var i=0; i < variable.length; i++) { %>
+            <tr>
+                <td>
+                    <%= variable[i].city %>
+                </td>
+                <td>
+                    <%= variable[i].name %>
+                </td>
+                <td>
+                    <%= variable[i].phone_no %>
+                </td>
+                <td>
+                    <%= variable[i].address %>
+                </td>
+                <% } %>
+            </tr>
+    </tbody>
+</table> -->

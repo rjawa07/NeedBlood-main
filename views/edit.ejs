@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login And Registration Form </title>
+	<link rel="stylesheet" href="./assets/css/style3.css">
+</head>
+<body>
+		<div class="hero">
+			<div class="form-box">
+				<p>Update Details</p>
+			<form id="register" class="input-group" method="post" action="/edit">
+				<input type="text" name="name" class="input-field" value="<%= userData.name %>" placeholder="Name" required>
+                <label class="bl">Blood Group:</label>
+                <select class="bl1" name="bloodType">  
+                    <option value="none" selected disabled hidden><%= userData.bloodType %></option>
+	                <option>A+ve</option>  
+	                <option>A-ve</option>  
+	                <option>B+ve</option>  
+	                <option>B-ve</option>  
+	                <option>O+ve </option>  
+	                <option>O-ve </option>  
+	                <option>AB+ve </option>    
+	                <option>AB-ve </option>   
+                </select>
+				<input type="text"  name="age" class="input-field" value="<%= userData.age %>" placeholder="Age" required>
+				<input type="text" name="city" class="input-field" value="<%= userData.city %>" placeholder="City" required>
+				<input type="text" name="phone" class="input-field" value="<%= userData.phone %>" placeholder="Phone No." required>
+
+				<label class="bl">Availability:</label>
+                <select class="bl1" name="availability">  
+                    <option value="none" selected disabled hidden><%= userData.availability %></option>
+	                <option>Available</option>  
+	                <option>Unavailable</option>  
+                </select>				
+
+				<button type="submit" class="submit-btn">Update</button>
+
+				
+
+
+			</form>
+			</div>
+	</div>
+</body>
+</html>

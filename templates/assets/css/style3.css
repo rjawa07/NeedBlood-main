@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	height: 650px;
+	width: 100%;
+	background:red;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box{
+	width: 380px;
+	height: 560px;
+	position: relative;
+	margin: 4% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+}
+.input-group{
+	top: 110px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	margin-top: 12px;
+	background: red;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+#register{
+	left: 50px;
+}
+.bl{
+	font-weight: 1;
+	color:#8A8A8A;
+	font-size:14px;
+	margin-top:10px;
+   	font-weight: 20;
+   	position: absolute;
+}
+.bl1{
+	margin-top:29px;
+	color:#8A8A8A;
+	width:120px;
+	height:25px;
+	outline:none;
+}
+p{
+	text-align: center;
+	height: 25px;
+	width: 200px;
+	background: red;
+	border-radius: 60px;
+	margin-left: 90px;
+	padding-top:10px;
+	margin-top: 10px;
+	margin: 35px auto;
+}

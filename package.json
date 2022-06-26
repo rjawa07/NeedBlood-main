@@ -1,0 +1,35 @@
+{
+    "name": "needblood",
+    "version": "1.0.0",
+    "description": "Blood Donation website using node js for Hackathon",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mihir6365/NeedBlood.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mihir6365/NeedBlood/issues"
+    },
+    "homepage": "https://github.com/Mihir6365/NeedBlood#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "cjs": "^0.0.11",
+        "ejs": "^3.1.7",
+        "express": "^4.17.3",
+        "express-session": "^1.17.3",
+        "lodash": "^4.17.21",
+        "md5": "^2.3.0",
+        "mongodb": "^4.5.0",
+        "mongoose": "^6.3.1",
+        "multer": "^1.4.4",
+        "passport": "^0.5.3",
+        "passport-local": "^1.0.0",
+        "passport-local-mongoose": "^7.1.1"
+    }
+}

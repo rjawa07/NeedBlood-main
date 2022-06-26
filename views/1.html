@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Action Menu Button</title>
+    <link rel="stylesheet" href="1.css">
+  </head>
+  <body>
+    <div class="action">
+    <div class="profile" onclick="menuToggle();">
+        <div id="name"></div>
+    </div>
+      <div class="menu">
+        <h3 id="n"></h3>
+        <ul>
+          <li><img src="image\edit.png"><a href="#"> Edit Profile </a></li>
+          <li><img src="image\log-out.png"><a href="#"> Logout </a></li>
+        </ul>
+      </div>          
+      </div>
+      <script>
+        function menuToggle()
+        {
+            const toggleMenu=document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+            var name = "Adam";
+            var lastname = "Sandler";
+            var initials = name.charAt(0)+""+lastname.charAt(0);
+            var fName=name+" "+lastname;
+            document.getElementById("name").innerHTML = initials;
+            document.getElementById("n").innerHTML = fName;
+      </script>
+  </body>
+</html>
